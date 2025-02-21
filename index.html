@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/inspiration.jpeg" alt="Logotipo">
+        </div>
+
+        <nav>
+            <button class="menu-toggle">☰</button>
+            <ul class="menu">
+                <li><a href="#mariela">Quién soy</a></li>
+                <li><a href="#diseno">Portafolio profesional</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sections-container">
+            <section class="collapsible" id="mariela" style="background-image: url('img/inspiration.jpeg');">
+                <div class="header">M</div>
+                <div class="content">
+                    <p>Espacio para texto sobre Mariela.</p>
+                </div>
+            </section>
+
+            <section class="collapsible" id="diseno" style="background-image: url('img/inspiration.jpeg');">
+                <div class="header">D</div>
+                <div class="content">
+                    <p>Espacio para texto sobre Diseño.</p>
+                </div>
+            </section>
+
+            <section class="collapsible" id="inspiracion" style="background-image: url('img/inspiration.jpeg');">
+                <div class="header">I</div>
+                <div class="content">
+                    <p>Espacio para texto sobre Inspiración.</p>
+                </div>
+            </section>
+        </div>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://instagram.com" target="_blank">
+            <img src="img/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://github.com" target="_blank">
+            <img src="img/github.png" alt="GitHub">
+        </a>
+        <a href="https://behance.net" target="_blank">
+            <img src="img/behance.png" alt="Behance">
+        </a>
+        <a href="https://dribbble.com" target="_blank">
+            <img src="img/dribbble.png" alt="Dribbble">
+        </a>
+        <a href="mailto:correo@example.com">
+            <img src="img/email.png" alt="Correo">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
